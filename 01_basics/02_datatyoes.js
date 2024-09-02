@@ -21,3 +21,5 @@
 //object = properties of a variable
 
 console.table([typeof null, typeof undefined])// 'object' , 'undefined'
+
+console.log("33" + 33)

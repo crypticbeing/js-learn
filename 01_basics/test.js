@@ -12,3 +12,4 @@ accountCity = "pass"
 console.table([accountId,accountEmail ,accountPass , accountCity])
 
 /* Prefer not to use 'var' because fo bloack scope and function scope */
+
