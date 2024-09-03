@@ -15,8 +15,54 @@
 // null -> 0
 // undefined -> NaN
 
-let booleanLogged = 1
-let booleanLoggenIn = Boolean(booleanLogged)
-console.log(booleanLoggenIn);
+//let booleanLogged = "abc"
+//let booleanLoggenIn = Boolean(booleanLogged)
+//console.log(booleanLoggenIn);
+
+// 1 -> true
+// 0-> false
+//"abc" -> true
+
+let someNumber = 33
+let stringNumber = String(someNumber)
+// console.log(stringNumber)
+
+/*******************Operations********************* */
+
+let value = 3
+let negValue = -value
+// console.log(negValue)
+// console.log(typeof negValue)
+
+// console.log(typeof ("1"+2+2)); //string ->122
+// console.log(typeof (1+2+"2")); //string -> 32
+// console.log(+true); //true -> 1
+//console.log(true+);//Error because operatior preference is "+" first
+//console.log(+""); //"" -> 0
+
+let gameCounter = 100
+gameCounter++; //postfix operator gives the same value as prefix operator
+++gameCounter; //prefix operator
+console.log(gameCounter);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
