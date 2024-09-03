@@ -22,4 +22,4 @@
 
 console.table([typeof null, typeof undefined])// 'object' , 'undefined'
 
-console.log("33" + 33)
+console.log("33" + 33) //3333
