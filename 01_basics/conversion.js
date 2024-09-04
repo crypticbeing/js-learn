@@ -1,4 +1,4 @@
-//let score = undefined
+let score = undefined
 
 //number to string conversion and string to number conversion.
 //console.log(typeof (score));
@@ -23,9 +23,11 @@
 // 0-> false
 //"abc" -> true
 
-let someNumber = 33
+let someNumber = null
 let stringNumber = String(someNumber)
-// console.log(stringNumber)
+console.log(stringNumber)
+console.log(typeof stringNumber); //NUmber converted into string
+
 
 /*******************Operations********************* */
 
@@ -37,13 +39,13 @@ let negValue = -value
 // console.log(typeof ("1"+2+2)); //string ->122
 // console.log(typeof (1+2+"2")); //string -> 32
 // console.log(+true); //true -> 1
-//console.log(true+);//Error because operatior preference is "+" first
+//console.log(true+);//Error because operator preference is "+" first
 //console.log(+""); //"" -> 0
 
 let gameCounter = 100
 gameCounter++; //postfix operator gives the same value as prefix operator
 ++gameCounter; //prefix operator
-console.log(gameCounter);
+//console.log(gameCounter);
 
 
 
