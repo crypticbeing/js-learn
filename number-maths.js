@@ -24,8 +24,17 @@ Number.MAX_VALUE//USED in DSA that will get you the max vlue used in JAvascript
 //console.log(Math.ceil(4.4)); //ceiling meand roof whichever the decimal number you provide it gives the bigger number
 //console.log(Math.floor(4.4)); //floor method takes lower value 
 //console.log(Math.sqrt(625)); //squareroot of a number
-console.log(Math.pow(25,3)); //power of a number
+//console.log(Math.pow(25,3)); //power of a number
+//console.log(Math.min(25,3,5,67,83,42,5,9)); //min of numbers
+//console.log(Math.max(25,3,5,67,83,42,5,9)); //max of numbers
+//console.log(Math.random())//give syou a random number in between 0-1
+//console.log((Math.random()*10)+1)//Assure you that it will not give you zero
+console.log(Math.floor((Math.random()*10)+1))//Assure you that it will not give you zero
 
+const min = 10
+const max = 20
+
+console.log(Math.floor(Math.random()*(max-min+1))+min);
 
 
 
